@@ -1,0 +1,58 @@
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+}
+
+.title {
+	text-anchor:middle;
+}
+
+.axis text {
+  font-size:10px;
+}
+
+.bar {
+  fill:green;
+  opacity:.4;
+}
+
+#slider {
+    width: 200px;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: left;           
+  overflow: hidden;                 
+  padding: 2px;
+  padding-left: 4px;             
+  font: 14px sans-serif;        
+  background: black;
+  color: white;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+
+.controls {
+    float: right;
+}
+
+.control {
+    margin-bottom: 10px;
+}
+
+.background {
+    visibility: visible !important;
+    fill: #fff;
+}
+
+.extent {
+    visibility: visible !important;
+    fill: #C8C8C8;
+}
+
+.resize rect {
+    visibility: visible !important;
+    fill: #C8C8C8;
+}
