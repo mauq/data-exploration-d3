@@ -1,7 +1,8 @@
 'use strict';
 
 $(function() {
-    d3.csv('data/startupdata.csv', function(error, data) {
+    console.log(window.location.pathname);
+    d3.csv('/data/startupdata.csv', function(error, data) {
         console.log(data);
 
         //populate dropdown
