@@ -1,7 +1,7 @@
 'use strict';
 
 $(function() {
-    d3.csv('../startupdata.csv', function(error, data) {
+    d3.csv('../data-exploration-d3/startupdata.csv', function(error, data) {
         console.log(data);
 
         //populate dropdown
